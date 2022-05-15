@@ -338,11 +338,11 @@ Query id: ff8c02eb-4702-4e4b-a845-7b536dc346f1
 > `department` String
 
 - count.txt 存放行数量信息
-- data.bin 存放压缩后的数据
+- *.bin 存放压缩后的数据
 
 [(125条消息) 【ClickHouse内核】MergeTree物理存储之bin文件解析_Night_ZW的博客-CSDN博客](https://blog.csdn.net/Night_ZW/article/details/112845552?spm=1001.2014.3001.5501)
 
-- data.mrk
+- *.mrk
 
 [(125条消息) 【ClickHouse内核】MergeTree物理存储之mrk文件解析_Night_ZW的博客-CSDN博客_mrk文件](https://blog.csdn.net/Night_ZW/article/details/112845620?spm=1001.2014.3001.5501)
 
@@ -356,7 +356,5 @@ Query id: ff8c02eb-4702-4e4b-a845-7b536dc346f1
 
 新增了一个all_2_2_0文件夹
 
-
-
-在/var/lib/clickhouse/store/ee6/ee61f6ea-2e27-4e57-a922-44e9db8471c0/all_1_33_2
-
+存储的表信息在/var/lib/clickhouse/data
+通过软链接映射到/var/lib/clickhouse/store中，可以看到具体的文件存储形式
