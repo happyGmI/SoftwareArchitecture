@@ -1,5 +1,7 @@
 # SoftwareArchitecture
+
 西电2022软件体系结构实时数仓ClickHouse上机实验
+
 ## ClickHouse
 
 ### 实验一
@@ -24,6 +26,8 @@ clickhouse-client
 curl http://localhost:8123/
 # 返回ok则说明配置正确
 ```
+
+如果需要配置用户账号密码，参见官方文档 https://clickhouse.com/docs/zh/interfaces/cli
 
 ### 实验二
 
