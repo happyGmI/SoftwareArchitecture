@@ -1,12 +1,5 @@
 package com.example.clickhousedemo.util;
 
-/**
- * @Class: ClickHouseUtil
- * @Author: Wei Junwei
- * @Time: 16:12 2022/5/14
- * @XiDianUniversity
- * @Description:
- */
 import com.alibaba.fastjson.JSONObject;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
