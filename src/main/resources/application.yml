@@ -1,0 +1,8 @@
+clickhouse:
+  address: jdbc:clickhouse://117.33.*.*:8123
+#  username: default
+#  password: xxx
+  username:
+  password:
+  db: default
+  socketTimeout: 600000
