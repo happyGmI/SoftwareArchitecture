@@ -281,6 +281,8 @@ Query id: ff921957-f1b1-4e82-81bd-24649949cdeb
 
 ##### 3.2 查询图书馆浏览次数大于99人，而且id连续的行数不止3行的数据
 
+**LeetCode 601**
+
 ```sql
 SELECT DISTINCT t1.*
 FROM library AS t1, library AS t2, library AS t3
