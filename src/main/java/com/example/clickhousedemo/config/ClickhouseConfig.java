@@ -7,5 +7,5 @@ package com.example.clickhousedemo.config;
  * @Description:
  */
 public class ClickhouseConfig {
-
+    // 相关配置
 }
